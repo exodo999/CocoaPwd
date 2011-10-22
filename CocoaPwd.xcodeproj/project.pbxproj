@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2172CC144F2D990070C512 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2172CB144F2D990070C512 /* Cocoa.framework */; };
+		8C2172D6144F2D990070C512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C2172D4144F2D990070C512 /* InfoPlist.strings */; };
+		8C2172D9144F2D990070C512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2172D8144F2D990070C512 /* main.m */; };
+		8C2172DC144F2D990070C512 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2172DA144F2D990070C512 /* Credits.rtf */; };
+		8C2172DF144F2D990070C512 /* Password_GeneradorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2172DE144F2D990070C512 /* Password_GeneradorAppDelegate.m */; };
+		8C2172E2144F2D990070C512 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C2172E0144F2D990070C512 /* MainMenu.xib */; };
+		8CB8E069144F89B90017517D /* KeyGen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB8E068144F89B90017517D /* KeyGen.png */; };
+		8CB8E073144F8BD60017517D /* KeyGen.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8CB8E072144F8BD60017517D /* KeyGen.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C2172C7144F2D990070C512 /* CocoaPwd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPwd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2172CB144F2D990070C512 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8C2172CE144F2D990070C512 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8C2172CF144F2D990070C512 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C2172D0144F2D990070C512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C2172D3144F2D990070C512 /* CocoaPwd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaPwd-Info.plist"; sourceTree = "<group>"; };
+		8C2172D5144F2D990070C512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C2172D7144F2D990070C512 /* CocoaPwd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaPwd-Prefix.pch"; sourceTree = "<group>"; };
+		8C2172D8144F2D990070C512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C2172DB144F2D990070C512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8C2172DD144F2D990070C512 /* Password_GeneradorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Password_GeneradorAppDelegate.h; sourceTree = "<group>"; };
+		8C2172DE144F2D990070C512 /* Password_GeneradorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Password_GeneradorAppDelegate.m; sourceTree = "<group>"; };
+		8C2172E1144F2D990070C512 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8CB8E068144F89B90017517D /* KeyGen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyGen.png; sourceTree = "<group>"; };
+		8CB8E072144F8BD60017517D /* KeyGen.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = KeyGen.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2172C4144F2D990070C512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2172CC144F2D990070C512 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C2172BC144F2D980070C512 = {
+			isa = PBXGroup;
+			children = (
+				8CB8E068144F89B90017517D /* KeyGen.png */,
+				8CB8E072144F8BD60017517D /* KeyGen.icns */,
+				8C2172D1144F2D990070C512 /* Password Generador */,
+				8C2172CA144F2D990070C512 /* Frameworks */,
+				8C2172C8144F2D990070C512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2172C8144F2D990070C512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2172C7144F2D990070C512 /* CocoaPwd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2172CA144F2D990070C512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C2172CB144F2D990070C512 /* Cocoa.framework */,
+				8C2172CD144F2D990070C512 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C2172CD144F2D990070C512 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C2172CE144F2D990070C512 /* AppKit.framework */,
+				8C2172CF144F2D990070C512 /* CoreData.framework */,
+				8C2172D0144F2D990070C512 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8C2172D1144F2D990070C512 /* Password Generador */ = {
+			isa = PBXGroup;
+			children = (
+				8C2172DD144F2D990070C512 /* Password_GeneradorAppDelegate.h */,
+				8C2172DE144F2D990070C512 /* Password_GeneradorAppDelegate.m */,
+				8C2172E0144F2D990070C512 /* MainMenu.xib */,
+				8C2172D2144F2D990070C512 /* Supporting Files */,
+			);
+			path = "Password Generador";
+			sourceTree = "<group>";
+		};
+		8C2172D2144F2D990070C512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2172D3144F2D990070C512 /* CocoaPwd-Info.plist */,
+				8C2172D4144F2D990070C512 /* InfoPlist.strings */,
+				8C2172D7144F2D990070C512 /* CocoaPwd-Prefix.pch */,
+				8C2172D8144F2D990070C512 /* main.m */,
+				8C2172DA144F2D990070C512 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2172C6144F2D990070C512 /* CocoaPwd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2172E5144F2D990070C512 /* Build configuration list for PBXNativeTarget "CocoaPwd" */;
+			buildPhases = (
+				8C2172C3144F2D990070C512 /* Sources */,
+				8C2172C4144F2D990070C512 /* Frameworks */,
+				8C2172C5144F2D990070C512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaPwd;
+			productName = "Password Generador";
+			productReference = 8C2172C7144F2D990070C512 /* CocoaPwd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2172BE144F2D980070C512 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8C2172C1144F2D980070C512 /* Build configuration list for PBXProject "CocoaPwd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C2172BC144F2D980070C512;
+			productRefGroup = 8C2172C8144F2D990070C512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2172C6144F2D990070C512 /* CocoaPwd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2172C5144F2D990070C512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2172D6144F2D990070C512 /* InfoPlist.strings in Resources */,
+				8C2172DC144F2D990070C512 /* Credits.rtf in Resources */,
+				8C2172E2144F2D990070C512 /* MainMenu.xib in Resources */,
+				8CB8E069144F89B90017517D /* KeyGen.png in Resources */,
+				8CB8E073144F8BD60017517D /* KeyGen.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2172C3144F2D990070C512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2172D9144F2D990070C512 /* main.m in Sources */,
+				8C2172DF144F2D990070C512 /* Password_GeneradorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C2172D4144F2D990070C512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2172D5144F2D990070C512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C2172DA144F2D990070C512 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2172DB144F2D990070C512 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8C2172E0144F2D990070C512 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2172E1144F2D990070C512 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C2172E3144F2D990070C512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C2172E4144F2D990070C512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8C2172E6144F2D990070C512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password Generador/CocoaPwd-Prefix.pch";
+				INFOPLIST_FILE = "Password Generador/CocoaPwd-Info.plist";
+				PRODUCT_NAME = CocoaPwd;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C2172E7144F2D990070C512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password Generador/CocoaPwd-Prefix.pch";
+				INFOPLIST_FILE = "Password Generador/CocoaPwd-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CocoaPwd;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2172C1144F2D980070C512 /* Build configuration list for PBXProject "CocoaPwd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2172E3144F2D990070C512 /* Debug */,
+				8C2172E4144F2D990070C512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2172E5144F2D990070C512 /* Build configuration list for PBXNativeTarget "CocoaPwd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2172E6144F2D990070C512 /* Debug */,
+				8C2172E7144F2D990070C512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2172BE144F2D980070C512 /* Project object */;
+}

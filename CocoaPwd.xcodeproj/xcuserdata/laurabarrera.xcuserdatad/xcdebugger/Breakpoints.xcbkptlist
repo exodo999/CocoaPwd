@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Password Generador/Password_GeneradorAppDelegate.h"
+         timestampString = "340753865.564421"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "31"
+         endingLineNumber = "31"
+         landmarkName = "@interface Password_GeneradorAppDelegate"
+         landmarkType = "2">
+         <Locations>
+            <Location
+               shouldBeEnabled = "Yes"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[Password_GeneradorAppDelegate window]"
+               urlString = "file://localhost/Users/laurabarrera/Proyectos%20xCode/Password%20Generador/Password%20Generador/Password_GeneradorAppDelegate.h"
+               timestampString = "340752978.591193"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "31"
+               endingLineNumber = "31">
+            </Location>
+            <Location
+               shouldBeEnabled = "Yes"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[Password_GeneradorAppDelegate setWindow:]"
+               urlString = "file://localhost/Users/laurabarrera/Proyectos%20xCode/Password%20Generador/Password%20Generador/Password_GeneradorAppDelegate.h"
+               timestampString = "340752978.591788"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "31"
+               endingLineNumber = "31">
+            </Location>
+         </Locations>
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Password Generador/Password_GeneradorAppDelegate.m"
+         timestampString = "340752911.783113"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "-genRandStringLength:"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>
